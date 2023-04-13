@@ -2,7 +2,7 @@ import API_KEY1 from "apikey.js";
 const form = document.getElementById("chat-form");
 const input = document.getElementById("chat-input");
 const messages = document.getElementById("chat-messages");
-const apiKey = API_KEY1;
+;
 
 const preText =
   "I am your personal informational guide for health issues and there solution.i am healthy heath bot  ";
@@ -31,7 +31,7 @@ form.addEventListener("submit", async (e) => {
     {
       headers: {
         "Content-Type": "application/json",
-        Authorization: `Bearer ${apiKey}`,
+        Authorization: `Bearer ${API_KEY1}`,
       },
     }
   );
